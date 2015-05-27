@@ -33,8 +33,9 @@ namespace WordSearcher
             }
             set
             {
-                PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs("Query"));
                 _query = value;
+                PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs("Query"));
+                
             }
         }
 
